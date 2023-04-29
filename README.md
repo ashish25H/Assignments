@@ -1,7 +1,7 @@
 # Assignments
 Page 1
 Live link
-[click here]()
+[click here](https://remarkable-axolotl-c2ff30.netlify.app/)
 
 Page 2
 Live link

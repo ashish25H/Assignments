@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+/* -------------------------- NavBar-Style-------------------- */
+.image {
+  width: 180px;
+  margin-left: 90px;
+}
+
+.navBar {
+  padding: 20px 5px;
+  background-color: #323131;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.btn1 {
+  border: none;
+  color: white;
+  background-color: #323131;
+  font-size: large;
+  margin-right: 20px;
+}
+
+.btnBorder {
+  border: 1px solid rgb(86, 85, 85);
+  font-size: medium;
+  padding: 15px 10px;
+  color: gray;
+}
+
+/* -------------------------------end of navBar style------------------ */
+
+/* ----------------------introSection-style--------------------- */
+
+.introSection {
+  height: 100vh;
+  background-image: url("./images/introBackground.png");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  /* color: white; */
+}
+
+.littleBox {
+  height: 15px;
+  width: 15px;
+  background-color: aqua;
+}
+
+.littleBoxAndText {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 5px;
+}
+
+.littleBoxAndText p{
+    margin-left: 20px;
+}
+
+.bigHeading{
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+}
+.subHeading{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+}
+
+.getBtn{
+    border: 1px solid gray;
+    background-color: #46424900;
+    color: gray;
+    font-size: medium;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
+
+.textSection{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.boxSection{
+    margin-bottom: 3px;
+}
+
+.box1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.box{
+    background-color: #32313100;
+    border: 1px solid aquamarine;
+    height: 180px;
+    width: 190px;
+    padding: 20px 20px;
+    color: white;
+
+}
+.box:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.twoBox{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.boxHeading{
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+/* ----------------------end-introSection-style--------------------- */
+
+/* -------------------------whatWeDo-section------------------------ */
+
+.whatWeDo{
+    background-color: black;
+
+}
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.boxAndText{
+    display: flex; 
+}
+.sideText{
+    margin-left: 15px;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.para{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* -------------------------end-whatWeDo-section------------------------ */
+
+/* ------------------------divideImg-style-------------------- */
+.divideImg{
+    background-color: black;
+   padding: 80px 0;
+}
+/* ------------------------divideImg-style-------------------- */
+
+
+/* ------------------------leadership-style-------------------- */
+.leadership{
+    background-color: black;
+    color: white;
+   padding-bottom: 50px;
+}
+
+.photoAndLeadership{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    border: 1px solid aquamarine;
+    padding: 20px 20px;
+}
+
+.dpImage{
+    width: 80%;
+}
+.leaderNames{
+    border: 1px solid aquamarine;
+    padding: 20px 20px;
+}
+.leaderNames h1{
+    font-size: 50px;
+    color: aquamarine;
+    margin: 0 0 35px 0;
+}
+.smallLine{
+    width: 20px;
+    border-top: 2px solid aquamarine;
+}
+.longLine{
+    width: 400px;
+    border-top: 1px solid aquamarine;
+    margin: 25px 0;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.twoImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.careers{
+    background-image: url('./images/Screenshot\ 2022-08-24\ at\ 12.58\ 1.jpg');
+    background-size: cover;
+    width: 35%;
+    height: 300px;
+    border: 1px solid aquamarine;
+    /* padding: 20px 20px; */
+}
+
+.getInTouch{
+    background-image: url('./images/Group\ 1805.jpg');
+    background-size: cover;
+    width: 29%;
+    height: 300px;
+    border: 1px solid aquamarine;
+}
+.textAndIcon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.textAndIcon p{
+    font-size: 23px;
+}
+.plusBorder{
+    border: 1px solid aquamarine;
+}
+/* ------------------------end-leadership-style-------------------- */
+
+/* ------------------footer-style-------------------- */
+footer{
+    background-color: #1d2c3c;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 30px;
+}
+.logoText{
+    padding: 110px 0;
+}
+.logoInFooter{
+    margin: 0 0 20px 0;
+}
+.address{
+    font-weight: 600;
+    line-height: 25px;
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(2);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-items: center;
+    gap: 0px;
+}
+.border{
+    border: 1px solid aquamarine;
+    padding: 40px 20px;
+    
+}
+.abc{
+    display: flex;
+    
+}
+.container{
+    margin: 50px 0 0 0;
+}
+
+.boxFooter{
+    height: 150px;
+    width: 150px;
+    border: 1px solid aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    height: 150px;
+    width: 300px;
+    border: 1px solid aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid aquamarine;
+}
+/* ------------------footer-style-------------------- */
